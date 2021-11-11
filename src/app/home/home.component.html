@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="container-fluid text-center mt-5">
+          <h1 class="text-white">
+            Welcome to the free doctor's appointment service
+          </h1>
+          <h5 class="text-white mt-3">
+            Search for the doctor you need and we will make the appointment for
+            you
+          </h5>
+        </div>
+        <div class="container d-flex justify-content-center mt-5">
+          <div class="row justify-content-center">
+            <div class="input-group mb-3">
+              <button
+                class="btn btn-secondary dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Medical Center
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+              </ul>
+              <input
+                type="text"
+                class="form-control"
+                aria-label="Text input with dropdown button"
+              />
+            </div>
+
+            <div class="input-group mb-3">
+              <button
+                class="btn btn-secondary dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Doctors
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+              </ul>
+              <input
+                type="text"
+                class="form-control"
+                aria-label="Text input with dropdown button"
+              />
+            </div>
+            <button type="button" class="btn btn-success col-8 col-sm-4 mb-3">
+              Search
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="container-fluid d-flex justify-content-center bg-white mt-5 opacity"
+        >
+          <div class="row">
+            <h2
+              class="text-center text-black col-lg-12 col-md-8 col-sm-12 pt-3"
+            >
+              The Ultimate List of Medical Specialties
+            </h2>
+
+            <div
+              class="container d-flex flex-wrap justify-content-center text-center"
+            >
+              <div class="col-12 col-lg-4 col-sm-12">
+                <ul class="list-group me-2 mb-3">
+                  <li
+                    class="list-group-item list-group-item-secondary text-black fw-bold"
+                    *ngFor="
+                      let speciality of specialities.slice(0, 4);
+                      let i = index
+                    "
+                  >
+                    {{ speciality.name }}
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-4 col-sm-12">
+                <ul class="list-group me-2 mb-3">
+                  <li
+                    class="list-group-item list-group-item-secondary text-black fw-bold"
+                    *ngFor="let speciality of specialities.slice(4, 8)"
+                  >
+                    {{ speciality.name }}
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-4 col-sm-12">
+                <ul class="list-group me-2 mb-3">
+                  <li
+                    class="list-group-item list-group-item-secondary text-black fw-bold"
+                    *ngFor="let speciality of specialities.slice(8, 12)"
+                  >
+                    {{ speciality.name }}
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container d-flex justify-content-around text-white mt-5">
+          <h4 class="text-white">Make an appointement</h4>
+          <h3
+            class="text-success animate__animated animate__pulse animate__infinite infinite"
+          >
+            <i class="fas fa-phone-square"> </i>0(22)223-223
+          </h3>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

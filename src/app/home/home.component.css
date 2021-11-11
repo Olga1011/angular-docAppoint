@@ -1,0 +1,9 @@
+body {
+  background-image: url(../../assets/images/GettyImages-823767128_high.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.opacity {
+  opacity: 0.8;
+}
