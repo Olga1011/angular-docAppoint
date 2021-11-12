@@ -1,6 +1,7 @@
 # DocAppoint
 ---
 *A platform to find the doctor you needed using Angular and Bootstrap*
+![DocAppoint Logo](https://i.ibb.co/VLtmnVP/homepage.png)
 
 ### Requirements
 - Node.js STB
