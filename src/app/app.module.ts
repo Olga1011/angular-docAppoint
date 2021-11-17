@@ -4,25 +4,21 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
-import { HospitalsComponent } from './hospitals/hospitals.component';
 import { DoctorsComponent } from './doctors/doctors.component';
 import { DocProfileComponent } from './doctors/doc-profile/doc-profile.component';
-import { BlogComponent } from './blog/blog.component';
-import { CabinetComponent } from './cabinet/cabinet.component';
 import { AppRoutingModule } from './app-routing.module';
 import { FooterComponent } from './footer/footer.component';
+import { ContactsComponent } from './contacts/contacts.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    HospitalsComponent,
     DoctorsComponent,
     DocProfileComponent,
-    BlogComponent,
-    CabinetComponent,
     FooterComponent,
+    ContactsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
