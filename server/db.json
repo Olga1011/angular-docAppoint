@@ -1,0 +1,22 @@
+{
+  "doctors": [
+    {
+      "id": 1,
+      "name": "George Glinman",
+      "title": "Cardiologist",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, veniam praesentium, quos explicabo nisi ipsum et aliquid mollitia veritatis architecto, quibusdam eos officiis natus nesciunt dolor esse. "
+    },
+    {
+      "id": 1,
+      "name": "George Glinman",
+      "title": "Cardiologist",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, veniam praesentium, quos explicabo nisi ipsum et aliquid mollitia veritatis architecto, quibusdam eos officiis natus nesciunt dolor esse. "
+    },
+    {
+      "id": 1,
+      "name": "George Glinman",
+      "title": "Cardiologist",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, veniam praesentium, quos explicabo nisi ipsum et aliquid mollitia veritatis architecto, quibusdam eos officiis natus nesciunt dolor esse. "
+    }
+  ]
+}

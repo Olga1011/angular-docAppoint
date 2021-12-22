@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-color">
   <div class="container-fluid">
-    <a class="navbar-brand" routerLink="/home">
-      <img src="../../assets/images/images.jpeg" alt="logo" class="logo" />
+    <a class="navbar-brand text-white" routerLink="/home">
+      <img src="../../assets/images/fire.png" alt="logo" class="logo" />
       DocAppoint</a
     >
     <button
@@ -19,19 +19,31 @@
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
           <a
-            class="nav-link active text-dark"
+            class="nav-link active text-white"
             aria-current="page"
             routerLink="/home"
+            routerLinkActive="active"
             >Home</a
           >
         </li>
 
         <li class="nav-item">
-          <a class="nav-link text-dark" routerLink="/doctors">Doctors</a>
+          <a
+            class="nav-link text-white"
+            routerLink="/doctors"
+            routerLinkActive="active"
+            >Doctors</a
+          >
         </li>
 
         <li class="nav-item">
-          <a routerLink="/contacts" class="nav-link text-dark"> Contacts</a>
+          <a
+            routerLink="/contacts"
+            routerLinkActive="active"
+            class="nav-link text-white"
+          >
+            Contacts</a
+          >
         </li>
       </ul>
     </div>

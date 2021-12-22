@@ -1,1 +1,30 @@
-<p>doc-profile works!</p>
+<a style="cursor: pointer">
+  <div class="card mt-3" style="width: 18rem">
+    <img
+      class="card-img-top"
+      [src]="doctor.imagePath"
+      alt="{{ doctor.name }} ({{ doctor.surname }})"
+      style="max-height: 280px"
+    />
+    <div class="card-body">
+      <h5>{{ doctor.name }} {{ doctor.surname }}</h5>
+      <h6 class="text-primary">{{ doctor.profession }}</h6>
+      <p class="card-text">
+        <span class="text-primary">Phone:</span> {{ doctor.phone }}
+      </p>
+    </div>
+    <div class="dropup d-flex m-1">
+      <button
+        type="button"
+        class="btn btn-primary dropdown-toggle ms-auto"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        Info
+      </button>
+      <div class="dropdown-menu">
+        <p class="m-1">{{ doctor.info }}</p>
+      </div>
+    </div>
+  </div>
+</a>

@@ -9,6 +9,8 @@ import { DocProfileComponent } from './doctors/doc-profile/doc-profile.component
 import { AppRoutingModule } from './app-routing.module';
 import { FooterComponent } from './footer/footer.component';
 import { ContactsComponent } from './contacts/contacts.component';
+import { DoctorEditComponent } from './doctors/doctor-edit/doctor-edit.component';
+
 
 @NgModule({
   declarations: [
@@ -19,8 +21,10 @@ import { ContactsComponent } from './contacts/contacts.component';
     DocProfileComponent,
     FooterComponent,
     ContactsComponent,
+    DoctorEditComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
+
   providers: [],
   bootstrap: [AppComponent],
 })
