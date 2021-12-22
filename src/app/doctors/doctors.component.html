@@ -1,2 +1,7 @@
-<app-doc-profile></app-doc-profile>
-<p>doctors works!</p>
+<div class="d-flex justify-content-center flex-wrap m-2">
+  <app-doc-profile
+    *ngFor="let doctorItem of doctors"
+    [doctor]="doctorItem"
+    class="m-1 align-self-center"
+  ></app-doc-profile>
+</div>

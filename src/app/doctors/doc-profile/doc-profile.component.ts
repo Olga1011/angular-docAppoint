@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Doctor } from '../doctor.model';
 
 @Component({
   selector: 'app-doc-profile',
@@ -6,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./doc-profile.component.scss'],
 })
 export class DocProfileComponent implements OnInit {
+  @Input()
+    doctor: Doctor;
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit() {}
 }
